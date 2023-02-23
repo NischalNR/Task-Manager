@@ -1,0 +1,12 @@
+  <div class="edit-container">
+    <form action="/tasks/{{updatedata._id}}?_method=PUT" method="post" enctype="application/x-www-form-urlencoded">
+      <input type="hidden" name="_method" vale="PUT">
+      <label for="" class="edit-label"><b>Task:</b></label>
+      <input type="text" class="edit-input" name="task" value="{{updatedata.task}}">
+      <button type="submit" class="edit-submit">Submit</button><br><br>
+      <form action="" method="post" enctype="application/x-www-form-urlencoded">
+    <label for="text" class="text-label">Task menu:</label> <br>
+    <textarea name="text" class="text-area" cols="20" rows="10" placeholder="Task details....">{{updatedata.text}}</textarea><br>
+  </form>
+    </form>
+  </div>

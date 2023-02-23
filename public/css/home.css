@@ -1,0 +1,115 @@
+body {
+  margin-top: 30px;
+  background-image: url("./sea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  margin-left: 0.5%;
+  color: black;
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+}
+
+.create {
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: green;
+  color: black;
+  height: 30px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.clear {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: crimson;
+  color: black;
+  height: 30px;
+  position: absolute;
+  margin-left: 100px;
+  
+}
+
+#task {
+
+  border: 2px solid black;
+  background-color: lightgray;
+  color: black;
+  height: 20px;
+  border: 2px soild black;
+  border-radius: 5px;
+}
+
+.label {
+  color: rgb(255, 13, 0);
+  font-size: x-large;
+  margin-left: 2%;
+}
+
+#head {
+  font-size: xx-large;
+  color: darkblue;
+}
+
+.edit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  color: black;
+  font-size: x-large;
+
+}
+
+.text-container {
+  color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.edit-input{
+ border: 2px solid black;
+ border-radius: 5px;
+  height: 30px ;
+}
+.edit-submit{
+   border: 2px solid black;
+   background-color: aqua;
+   color: black;
+   border-radius: 20px;
+   height: 35px;
+   width: 70px;
+}
+
+.text-area{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.text-label{
+  color: darkblue;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+th{
+  color: darkmagenta;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
